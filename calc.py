@@ -56,7 +56,7 @@ class Calculator():
         button_mult=Button(self.root, text='*', command=lambda: self.exe_command('*'))
         button_dec=Button(self.root, text='.', command=lambda: self.exe_command_dec())
         button_equal=Button(self.root, text='=', command=lambda: self.exe_command_equal(), width=15, bg='#102132', fg='white')
-        button_clear=Button(self.root, text='C', command=lambda: self.exe_command('c'),bg='#102912', fg='white')
+        button_clear=Button(self.root, text='C', command=lambda: self.exe_command('c'),bg='#f74a4a', fg='white')
         return button_add, button_sub, button_div, button_mult, button_equal, button_clear, button_dec
     
     def exe_button_call(self):
