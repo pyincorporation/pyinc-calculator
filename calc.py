@@ -106,5 +106,6 @@ class Calculator():
 if __name__ == '__main__':
     root=Tk()
     root.title('pyinc-calculator')
+    root.resizable(width=False, height=False)
     calculator = Calculator(root)
     root.mainloop()
